@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        .user-container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+            padding: 10px;
+        }
+        .item{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid black;
+        }
+        .item >img {
+            height:150px;
+            width:150px;
+        }
+        button{
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="user-container">
+        </div>
+
+    </div>
+    <center><button onclick = fetching()>Fetch Users</button></center>
+</body>
+<script src="./index.js"></script>
+</html>
